@@ -1,0 +1,141 @@
+% !TeX spellcheck = russian-aot
+% Commenting - Ctrl+T
+\RequirePackage{cmap}
+\documentclass[12pt, a4paper]{article}
+\oddsidemargin=-5mm
+\textwidth=17cm
+\topmargin=0pt
+\setlength{\textheight}{46\baselineskip}
+\setlength{\textheight}{\baselinestretch\textheight}
+\addtolength{\textheight}{\topskip}
+%-------------
+%\usepackage[UTF8]{inputenc}  
+\usepackage[T2A]{fontenc} 
+\usepackage[a4paper,hmargin=2.5cm,vmargin=2.5cm]{geometry}     
+\usepackage[english,russian]{babel}
+\frenchspacing   
+\usepackage{latexsym} % \lhd \rhd
+\usepackage{amsfonts} % \mathbb
+
+\usepackage{xcolor}
+\usepackage{hyperref}[]
+\definecolor{linkcolor}{HTML}{000000} % ???? ??????
+\definecolor{urlcolor}{HTML}{0000EE} % ???? ???????????
+\definecolor{citecolor}{HTML}{000000} %???? ??? \cite
+\hypersetup{linkcolor=linkcolor,urlcolor=urlcolor, citecolor=citecolor, colorlinks=true}
+
+\ifx\pdfoutput\undefined
+\usepackage{graphicx}
+\else
+\usepackage[pdftex]{graphicx}
+\fi
+\usepackage{wrapfig}
+
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsmath}
+
+%\usepackage{euscript} % \EuScript
+%\usepackage{eufrak} % \mathfrak!!
+%----
+\DeclareMathOperator{\Col}{Col}
+\DeclareMathOperator{\Cells}{Cells}
+\DeclareMathOperator{\dom}{dom}
+\DeclareMathOperator{\ran}{ran}
+\DeclareMathOperator{\sign}{sign}
+\newtheorem{theorem}{Теорема}
+\newtheorem{hypo}{Гипотеза}
+\newtheorem{problem}{Задача}
+\newtheorem{suite}{Следствие}
+\newtheorem{lemm}{Лемма}
+\newtheorem{idea}{Предложение}
+\newtheorem{examp}{Пример}
+\theoremstyle{definition}
+\newtheorem*{defin}{Определение}
+\theoremstyle{remark}
+\newtheorem{bytheway}{Замечание}
+
+\newcommand{\samedef}{\stackrel{\mathrm{def}}{\Longleftrightarrow}}
+\newcommand{\eqdef}{\stackrel{\mathrm{def}}{=}}
+\newcommand{\toto}{\rightrightarrows}
+\renewcommand{\Im}{\mathop{\mathrm{Im}}\nolimits}
+\renewcommand{\Re}{\mathop{\mathrm{Re}}\nolimits}
+
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\rk}{\mathrm{rk}\ }
+\newcommand{\Ker}{\mathrm{Ker}\ }
+\newcommand{\Lin}{\mathrm{Lin}\ }
+\newcommand{\R}{\mathbb{R}}
+
+\newcommand*{\hm}[1]{#1\nobreak\discretionary{}%
+	{\hbox{$\mathsurround=0pt #1$}}{}}
+\newcommand*{\hide}[1]{}
+
+\begin{document}
+	\title{Высшая школа экономики. Факультет математики.\\Итоговая государственная аттестация.}
+	\maketitle
+	\input{quest01.tex}
+	\input{quest02.tex}
+	\input{quest03.tex}
+	\input{quest04.tex}
+	\input{quest05.tex}
+	\input{quest06.tex}
+	\input{quest07.tex}
+	\input{quest08.tex}
+	\input{quest09.tex}
+	\input{quest10.tex}
+	\input{quest11.tex}
+	\input{quest12.tex}
+	\input{quest13.tex}
+	\input{quest14.tex}
+	\input{quest15.tex}
+	\input{quest16.tex}
+	\input{quest17.tex}
+	\input{quest18.tex}
+	\input{quest19.tex}
+	\input{quest20.tex}
+	\input{quest21.tex}
+	\input{quest22.tex}
+	\input{quest23.tex}
+	\input{quest24.tex}
+	\input{quest24.tex}
+	\input{quest25.tex}
+	\input{quest26.tex}
+	\input{quest27.tex}
+	\input{quest28.tex}
+	\input{quest29.tex}
+	\input{quest30.tex}
+	\input{quest31.tex}
+	\input{quest32.tex}
+	\input{quest33.tex}
+	\input{quest34.tex}
+	\input{quest35.tex}
+	\input{quest36.tex}
+	\input{quest37.tex}
+	\input{quest38.tex}
+	\input{quest39.tex}
+	\input{quest40.tex}
+	\input{quest41.tex}
+	\input{quest42.tex}
+	\input{quest43.tex}
+	\input{quest44.tex}
+	\input{quest45.tex}
+	\input{quest46.tex}
+	\input{quest47.tex}
+	\input{quest48.tex}
+	\input{quest49.tex}
+	\input{quest50.tex}
+	\input{quest51.tex}
+	\input{quest52.tex}
+	\input{quest53.tex}
+	\input{quest54.tex}
+	\input{quest55.tex}
+	\input{quest56.tex}
+	\input{quest56.tex}
+	\input{quest57.tex}
+	\input{quest58.tex}
+	\input{quest59.tex}
+	\input{quest60.tex}
+	
+\end{document}
